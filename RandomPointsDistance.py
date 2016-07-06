@@ -5,10 +5,6 @@ import math,random
 def distance(x1,y1,x2,y2):
 	X = x2 - x1
 	Y = y2 - y1
-	if X < 0:
-		X = X * -1
-	if Y < 0:
-		Y = Y * -1
 	return math.sqrt(X*X + Y*Y)
 
 sum = 0
