@@ -1,4 +1,4 @@
-#Prints the average of two random points in a 1x1 square
+#Prints the average distance of two random points in a 1x1 square
 
 import math,random
 
