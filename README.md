@@ -1,4 +1,2 @@
-# Random-Points-Distance
-Calculates the average distance of two random points in a square
-
-Estimation uses the Distance Formula with random numbers
+# Consecutive-Coin-Flips
+The average waiting time between consecutive Heads-Heads (HH) is longer than the average waiting time between Heads-Tails (HT)
