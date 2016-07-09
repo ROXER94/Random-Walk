@@ -1,2 +1,2 @@
 # Random-Walk
-Shows the maximum distance a person will randomly walk
+Calculates the maximum distance from the origin to the furthest point of the path
