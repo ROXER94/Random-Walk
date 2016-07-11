@@ -7,8 +7,10 @@ path = ""
 
 for i in range(length):
 	if random.random() < .66:
+		#Move Left or Right
 		path += random.choice("LR")
 	else:
+		#Move 1-9 units
 		path += random.choice("123456789")
 
 #initialize the origin
