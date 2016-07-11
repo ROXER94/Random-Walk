@@ -6,7 +6,7 @@ length = 100000
 path = ""
 
 for i in range(length):
-	if random.random() < .75:
+	if random.random() < .66:
 		path += random.choice("LR")
 	else:
 		path += random.choice("123456789")
@@ -25,15 +25,6 @@ obstacle = False#obstacle is not present
 x = [(-10,46),(7,30),(92,240),(143,246),(240,382),(253,397),(274,466),(275,370),(307,469),(385,511)]
 
 for c in path:
-	'''#limit of the X,Y coordinate plan
-	if posx < -100000:
-		posx = -100000
-	elif posx > 100000:
-		posx = 100000
-	elif posy < -100000:
-		posy = -100000
-	elif posy > 100000:
-		posy = 100000'''
 	if c == "L":#direction is Left
 		if direction == "N":
 			 direction = "W"
@@ -99,4 +90,5 @@ for c in path:
 			currentdistance = math.sqrt(posx*posx + posy*posy)
 		if currentdistance > maxdistance:
 			maxdistance = currentdistance
+
 print(round(maxdistance,2))
